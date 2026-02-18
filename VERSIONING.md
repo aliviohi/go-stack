@@ -11,10 +11,12 @@ This repository uses Semantic Versioning (`MAJOR.MINOR.PATCH`):
 1. Merge changes to `main` using Conventional Commit style (`feat:`, `fix:`, `chore:`).
 2. GitHub Action `release-please` opens or updates a Release PR.
 3. Review the Release PR:
+
 - Version bump
 - Generated `CHANGELOG.md`
-4. Merge the Release PR.
-5. `release-please` creates the git tag and GitHub Release automatically.
+
+1. Merge the Release PR.
+2. `release-please` creates the git tag and GitHub Release automatically.
 
 `CHANGELOG.md` is managed by `release-please`; do not edit release sections manually.
 
