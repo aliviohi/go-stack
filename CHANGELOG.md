@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog and this project follows Semantic Versioning.
 
+## [1.0.0](https://github.com/aliviohi/go-stack/compare/v0.2.0...v1.0.0) (2026-02-18)
+
+
+### Miscellaneous Chores
+
+* cut stable release ([118af01](https://github.com/aliviohi/go-stack/commit/118af01884db971924595409206dd37a989431c9))
+* cut stable release ([f265779](https://github.com/aliviohi/go-stack/commit/f265779af7370c36ee90cc96bc4e0da1ef7dc916))
+
 ## [0.2.0](https://github.com/aliviohi/go-stack/compare/v0.1.0...v0.2.0) (2026-02-18)
 
 
