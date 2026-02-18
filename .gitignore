@@ -1,0 +1,7 @@
+# Build outputs
+/dist/
+go-stack
+*.exe
+
+# OS artifacts
+.DS_Store

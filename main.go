@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"time"
 )
+
+var version = "dev"
 
 type Stack struct {
 	items []int
@@ -29,6 +32,11 @@ func (s Stack) Print() {
 }
 
 func main() {
+	if len(os.Args) > 1 && (os.Args[1] == "--version" || os.Args[1] == "-v") {
+		fmt.Println(version)
+		return
+	}
+
 	input := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	stack := Stack{}
 

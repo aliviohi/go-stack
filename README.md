@@ -35,6 +35,20 @@ Run the container:
 docker run --rm go-stack
 ```
 
+## Practice releases
+
+Use this quick loop to practice versioning and release notes:
+
+1. Use Conventional Commits in PR titles/commits (examples: `feat: add stack peek`, `fix: handle empty pop`).
+2. Merge to `main`.
+3. Wait for the `release-please` workflow to open or update a Release PR.
+4. Review the generated version bump and `CHANGELOG.md` changes in that PR.
+5. Merge the Release PR.
+
+After merge, GitHub will automatically create the tag and GitHub Release.
+
+Versioning details: see `VERSIONING.md`.
+
 ## Notes
 
 - Stack order shown is `bottom -> top`.
