@@ -21,6 +21,20 @@ Simple Go example to demonstrate stack operations using a slice.
 go run main.go
 ```
 
+## Run with Docker
+
+Build the image:
+
+```bash
+docker build -t go-stack .
+```
+
+Run the container:
+
+```bash
+docker run --rm go-stack
+```
+
 ## Notes
 
 - Stack order shown is `bottom -> top`.
